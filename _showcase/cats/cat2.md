@@ -1,9 +1,8 @@
 ---
+date: 2026-07-01
+group: cats
 show: true
-width: 3
-date: 2020-01-12 00:01:00 +0800
-group: Cats
+width: 4
 ---
-<div>
-    <img data-src="{{ 'assets/images/etc/cat2.jpg' | relative_url }}" class="lazy w-100 rounded-xl" src="{{ '/assets/images/empty_300x200.png' | relative_url }}" data-toggle="tooltip" data-placement="top" title="Caption of this image">
-</div>
+
+![Cat 2]({{ '/assets/images/cats/cat2.jpg' | relative_url }})

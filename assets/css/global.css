@@ -91,3 +91,16 @@ div.lazy {
 .email-text {
     font-family: Source Code Pro, monospace;
 }
+
+/* Showcase image constraints */
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0.4rem;
+}
+
+.grid-item .card {
+    overflow: hidden;
+}
+
